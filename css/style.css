@@ -243,16 +243,69 @@ article section.rubic .rubic-c .rubic-cfloat a{
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
 }
-
-
-
 /* /section rubic */
 
-
+/* /section biglightblue */
 article section.biglightblue{
-  height: 50vh;
-  background-color: lightblue;
+  min-height: 50vh;
+  background-color: #00BAA8;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+article section.biglightblue .txtcontainer{
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+
+}
+article section.biglightblue .txtcontainer *{
+  padding: 10px 20px 10px 20px;
+}
+article section.biglightblue .bluerowcontainer {
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 20px;
+}
+article section.biglightblue .bluerowcontainer .bluerow:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article section.biglightblue .bluerowcontainer .bluerow .floatcontainer{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 30px 5% 30px 5%;
+  border: 1px solid white;
+}
+article section.biglightblue .bluerowcontainer .bluerow .floatcontainer img{
+  width: 50px;
+  height: 50px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.a .floatcontainer{
+  border-top: 0px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer{
+  border-bottom: 0px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.a .floatcontainer:nth-of-type(1){
+  border-left: 0px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.a .floatcontainer:nth-of-type(4){
+  border-right: 0px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of-type(1){
+  border-left: 0px;
+}
+article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of-type(4){
+  border-right: 0px;
+}
+
+/* /section biglightblue */
+
 article section.shopify{
   height: 70vh;
   background-color: white;
