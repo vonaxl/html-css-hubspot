@@ -193,7 +193,7 @@ article section.rubic .rubic-b:after{
   clear: both;
 }
 article section.rubic .rubic-b .floatleft .imglogo a{
-  background-color: orange;
+  background-color: #FF7A59;
   padding: 10px 20px 10px 20px;
   margin-left: 20%;
   border-radius: 5px;
@@ -207,7 +207,7 @@ article section.rubic .rubic-b .floatleft .rubic-btxt #insieme{
 
 article section.rubic .rubic-c{
   position: relative;
-  background-color: gray;
+  background-color: ;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -218,12 +218,32 @@ article section.rubic .rubic-c:after{
 }
 article section.rubic .rubic-c .rubic-cfloat{
   float: left;
-  display: inblock;
-  background-color: lightgreen;
-  width: 200px;
-  height: 400px;
+  display: block;
+  background-color: ;
+  width: 250px;
   margin: 10px 20px 10px 20px;
+  text-align: center;
 }
+article section.rubic .rubic-c .rubic-cfloat p{
+  text-align: left;
+}
+article section.rubic .rubic-c .rubic-cfloat ul li{
+  text-align: left;
+}
+article section.rubic .rubic-c .rubic-cfloat:nth-of-type(2){
+  margin-left: 11%;
+  margin-right: 11%;
+}
+article section.rubic .rubic-c .rubic-cfloat .imglogo img{
+  width: 120px;
+  height: 120px;
+}
+article section.rubic .rubic-c .rubic-cfloat a{
+  background-color: #FF7A59;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
 
 
 /* /section rubic */
