@@ -9,3 +9,52 @@ nav{
   height: 50px;
   border-top: 2px solid orange;
 }
+
+nav .navcontainer{
+  text-align: center;
+}
+nav .navcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  nav .navcontainer .imglogo{
+    float: left;
+    width: 100px;
+    padding: 10px;
+  }
+
+  nav .navcontainer .navlinks{
+    float: left;
+    display: block;
+    margin: 10px 30px 10px 30px;
+  }
+    nav .navcontainer .navlinks ul{
+    list-style-type: none;
+    overflow: hidden;
+    }
+    nav .navcontainer .navlinks ul::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+      nav .navcontainer .navlinks ul li{
+      float: left;
+      display: block;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+
+      }
+        nav .navcontainer .navlinks ul li a{
+        text-decoration: none;
+        color: white;
+        line-height: 30px;
+        }
+  nav .navrightfloat{
+    float: right;
+    display: block;
+    margin: 10px 30px 10px 30px;
+  }
