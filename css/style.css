@@ -144,25 +144,65 @@ article.container{
     padding: 50px 150px 50px 150px;
   }
 
-  article section.bigbluebg .textsection{
-    width: 300px;
-  }
-  article section.bigbluebg .textsection *{
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  article section.bigbluebg .textsection a{
-    background-color: gray;
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-  }
-
-
-  /* /section hubspot */
+    article section.bigbluebg .textsection{
+      width: 300px;
+    }
+      article section.bigbluebg .textsection *{
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+        article section.bigbluebg .textsection a{
+          background-color: gray;
+          padding: 10px 20px 10px 20px;
+          border-radius: 5px;
+        }
+  /* /section bigbluebg */
+  /* section rubic */
   article section.rubic{
-    height: 90vh;
     background-color: white;
+    padding: 50px 200px 50px 200px;
   }
+  article section.rubic *{
+    margin:10px 20px 10px 20px;
+  }
+
+  article section.rubic .rubicA{
+    background-color: gray;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  article section.rubic .rubicB{
+    background-color: gray;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  article section.rubic .rubicC{
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  article section.rubic .rubicC:after{
+    clear: both;
+    display: table;
+    content: "";
+  }
+  article section.rubic .rubicC .rubicCfloat{
+    float: left;
+    display: block;
+    background-color: lightgreen;
+    width: 200px;
+    height: 400px;
+    margin: 10px 20px 10px 20px;
+  }
+
+
+  /* /section rubic */
+
+
   article section.biglightblue{
     height: 50vh;
     background-color: lightblue;
