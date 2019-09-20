@@ -307,7 +307,7 @@ article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of
   border-right: 0px;
 }
 /* /section biglightblue */
-
+/* shopify section */
 article section.shopify{
   background-color: white;
   padding: 100px 200px 100px 200px;
@@ -352,6 +352,7 @@ article section.shopify .shopifyrow .logocontainer .floatleft img{
   height: 30px;
 
 }
+/* shopify row b */
 article section.shopify .shopifyrow.b {
   padding-left: 5%;
   position: relative;
@@ -385,7 +386,8 @@ article section.shopify .shopifyrow.b .imgcontainer img{
 article section.shopify .shopifyrow.b .txtcontainer p:nth-of-type(2){
   font-size: 10px;
 }
-
+/* /shopify row b */
+/* /shopify section */
 /* /article rules*/
 
 footer{
