@@ -303,12 +303,46 @@ article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of
 article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of-type(4){
   border-right: 0px;
 }
-
 /* /section biglightblue */
 
 article section.shopify{
   height: 70vh;
   background-color: white;
+  padding: 100px 200px 100px 200px
+}
+
+
+article section.shopify .shopifyrow::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+article section.shopify .shopifyrow .txtcontainer{
+  float: left;
+  display: block;
+  width: 300px;
+  margin-right: 100px;
+}
+article section.shopify .shopifyrow .txtcontainer *{
+  padding: 10px 20px 10px 20px;
+}
+article section.shopify .shopifyrow .logomain{
+  float: left;
+  display: block;
+  width: 700px;
+}
+article section.shopify .shopifyrow .logocontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+article section.shopify .shopifyrow .logocontainer .floatleft{
+  padding: 10px 20px 10px 20px;
+}
+article section.shopify .shopifyrow .logocontainer .floatleft img{
+  width: 100px;
+  height: 30px;
+
 }
 
 /* /article rules*/
