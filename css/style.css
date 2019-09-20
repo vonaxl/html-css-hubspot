@@ -159,45 +159,51 @@ article.container{
   /* /section bigbluebg */
   /* section rubic */
   article section.rubic{
-    background-color: white;
+    background-color: #F4F8FA;
     padding: 50px 200px 50px 200px;
   }
-  article section.rubic *{
-    margin:10px 20px 10px 20px;
-  }
+    article section.rubic *{
+      margin:10px 20px 10px 20px;
+    }
 
-  article section.rubic .rubicA{
-    background-color: gray;
-    height: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    article section.rubic .rubicA{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      position: relative;
+      text-align: center;
+    }
+    
+    article section.rubic .rubicA .rubicAcontainer .imgrubicA img{
+      width: 250px
+    }
 
-  }
-  article section.rubic .rubicB{
-    background-color: gray;
-    height: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    article section.rubic .rubicB{
+      position: relative;
+      background-color: gray;
+      height: 300px;
+      padding-top: 20px;
+      padding-bottom: 20px;
 
-  }
-  article section.rubic .rubicC{
-    background-color: gray;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  article section.rubic .rubicC:after{
-    clear: both;
-    display: table;
-    content: "";
-  }
-  article section.rubic .rubicC .rubicCfloat{
-    float: left;
-    display: block;
-    background-color: lightgreen;
-    width: 200px;
-    height: 400px;
-    margin: 10px 20px 10px 20px;
-  }
+    }
+    article section.rubic .rubicC{
+      position: relative;
+      background-color: gray;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    article section.rubic .rubicC:after{
+      clear: both;
+      display: table;
+      content: "";
+    }
+    article section.rubic .rubicC .rubicCfloat{
+      float: left;
+      display: block;
+      background-color: lightgreen;
+      width: 200px;
+      height: 400px;
+      margin: 10px 20px 10px 20px;
+    }
 
 
   /* /section rubic */
