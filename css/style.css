@@ -32,6 +32,10 @@ text-decoration: none;
 color: white;
 line-height: 30px;
 }
+
+h1{
+  font-size: 30px;
+}
 /*/General rules*/
 
 /* header rules */
@@ -93,7 +97,7 @@ header{
 
   header section.navgray{
       background-color: gray;
-      height: 80px;
+      height: 50px;
       padding-left: 50px;
       padding-right: 50px;
       position: relative;
@@ -109,29 +113,52 @@ header{
 article.container{
 
 }
-
+  /* section hubspot */
   article section.hubspot{
     background-color: white;
     padding-left: 150px;
     padding-right: 150px;
     height: 50px;
   }
-  article section.hubspot img{
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-  article section.hubspot .floatright ul li {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  article section.hubspot .floatright ul li a{
-    color: gray;
+    article section.hubspot img{
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+      article section.hubspot .floatright ul li {
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+        article section.hubspot .floatright ul li a{
+          color: gray;
+        }
+
+  /* /section hubspot */
+
+  /* section bigbluebg */
+  article section.bigbluebg{
+    height: 60vh;
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: repeat-x;
+    background-size: 90%;
+    background-position: -50%, 0%;
+    padding: 50px 150px 50px 150px;
   }
 
-  article section.bigbluebg{
-    height: 50vh;
-    background-color: blue;
+  article section.bigbluebg .textsection{
+    width: 300px;
   }
+  article section.bigbluebg .textsection *{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  article section.bigbluebg .textsection a{
+    background-color: gray;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+  }
+
+
+  /* /section hubspot */
   article section.rubic{
     height: 90vh;
     background-color: white;
