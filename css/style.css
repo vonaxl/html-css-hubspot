@@ -230,9 +230,12 @@ article section.rubic .rubic-c .rubic-cfloat p{
 article section.rubic .rubic-c .rubic-cfloat ul li{
   text-align: left;
 }
+article section.rubic .rubic-c .rubic-cfloat:nth-of-type(1){
+  margin-left: 4%;
+}
 article section.rubic .rubic-c .rubic-cfloat:nth-of-type(2){
-  margin-left: 11%;
-  margin-right: 11%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 article section.rubic .rubic-c .rubic-cfloat .imglogo img{
   width: 120px;
@@ -306,16 +309,19 @@ article section.biglightblue .bluerowcontainer .bluerow.b .floatcontainer:nth-of
 /* /section biglightblue */
 
 article section.shopify{
-  height: 70vh;
   background-color: white;
-  padding: 100px 200px 100px 200px
+  padding: 100px 200px 100px 200px;
+  position: relative;
 }
-
 
 article section.shopify .shopifyrow::after{
   content: "";
   display: table;
   clear: both;
+  position: relative;
+}
+article section.shopify .shopifyrow.a{
+  padding-left: 10%;
 }
 article section.shopify .shopifyrow .txtcontainer{
   float: left;
@@ -323,13 +329,15 @@ article section.shopify .shopifyrow .txtcontainer{
   width: 300px;
   margin-right: 100px;
 }
-article section.shopify .shopifyrow .txtcontainer *{
+article section.shopify .shopifyrow.a .txtcontainer *{
   padding: 10px 20px 10px 20px;
 }
 article section.shopify .shopifyrow .logomain{
   float: left;
   display: block;
-  width: 700px;
+}
+article section.shopify .shopifyrow .logocontainer{
+  padding-top: 10px;
 }
 article section.shopify .shopifyrow .logocontainer:after{
   content: "";
@@ -343,6 +351,39 @@ article section.shopify .shopifyrow .logocontainer .floatleft img{
   width: 100px;
   height: 30px;
 
+}
+article section.shopify .shopifyrow.b {
+  padding-left: 5%;
+  position: relative;
+  padding-top: 200px;
+}
+
+article section.shopify .shopifyrow.b .txtcontainer {
+  width: 500px;
+  float: left;
+  display: block;
+  padding-top: 100px;
+}
+article section.shopify .shopifyrow.b .txtcontainer *{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+article section.shopify .shopifyrow.b .txtcontainer a{
+  background-color: #FF7A59;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+article section.shopify .shopifyrow.b .imgcontainer{
+  float:right;
+  display: block;
+}
+
+article section.shopify .shopifyrow.b .imgcontainer img{
+  width: 300px;
+}
+article section.shopify .shopifyrow.b .txtcontainer p:nth-of-type(2){
+  font-size: 10px;
 }
 
 /* /article rules*/
