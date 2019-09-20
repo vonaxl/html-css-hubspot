@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*/General rules*/
 
+/* selector to be used to not repeat the same steps*/
 .floatleft{
   float: left;
   display: block;
@@ -15,227 +17,226 @@
 }
 
 ul{
-list-style-type: none;
-overflow: hidden;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 li{
-float: left;
-display: block;
-text-align: center;
-padding-left: 5px;
-padding-right: 5px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 a{
-text-decoration: none;
-color: white;
-line-height: 30px;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
 }
 
 h1{
   font-size: 30px;
 }
-/*/General rules*/
+/* selector to be used to not repeat steps*/
 
 /* header rules */
 header{
 
 }
-  header nav{
-    background-color: #33475B;
-    height: 50px;
-    border-top: 2px solid orange;
-    text-align: center;
-  }
-    header nav .navcontainer:after{
-      content: "";
-      display: table;
-      clear: both;
-    }
+header nav{
+  background-color: #33475B;
+  height: 50px;
+  border-top: 2px solid orange;
+  text-align: center;
+}
+header nav .navcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
-      nav .navcontainer .imglogo{
-        float: left;
-        width: 100px;
-        padding: 10px;
-      }
+nav .navcontainer .imglogo{
+  float: left;
+  width: 100px;
+  padding: 10px;
+}
 
-      nav .navcontainer .navlinks{
-        float: left;
-        display: block;
-        margin: 10px 30px 10px 30px;
-      }
-        nav .navcontainer .navlinks ul{
-        list-style-type: none;
-        overflow: hidden;
-        }
-        nav .navcontainer .navlinks ul::after{
-          content: "";
-          display: table;
-          clear: both;
-        }
+nav .navcontainer .navlinks{
+  float: left;
+  display: block;
+  margin: 10px 30px 10px 30px;
+}
+nav .navcontainer .navlinks ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+nav .navcontainer .navlinks ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
-          nav .navcontainer .navlinks ul li{
-          float: left;
-          display: block;
-          text-align: center;
-          padding-left: 5px;
-          padding-right: 5px;
+nav .navcontainer .navlinks ul li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav .navcontainer .navlinks ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
 
-          }
-            nav .navcontainer .navlinks ul li a{
-            text-decoration: none;
-            color: white;
-            line-height: 30px;
-            }
+nav .navrightfloat{
+  float: right;
+  display: block;
+  margin: 10px 30px 10px 30px;
+}
 
-      nav .navrightfloat{
-        float: right;
-        display: block;
-        margin: 10px 30px 10px 30px;
-      }
-
-  header section.navgray{
-      background-color: gray;
-      height: 50px;
-      padding-left: 50px;
-      padding-right: 50px;
-      position: relative;
-    }
-    header section.navgray::after{
-      content: "";
-      clear: both;
-      display: table;
-    }
+header section.navgray{
+  background-color: gray;
+  height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+header section.navgray::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 /* /header rules */
 
 /* article rules*/
 article.container{
 
 }
-  /* section hubspot */
-  article section.hubspot{
-    background-color: white;
-    padding-left: 150px;
-    padding-right: 150px;
-    height: 50px;
-  }
-    article section.hubspot img{
-      padding-top: 10%;
-      padding-bottom: 10%;
-    }
-      article section.hubspot .floatright ul li {
-        padding-top: 5%;
-        padding-bottom: 5%;
-      }
-        article section.hubspot .floatright ul li a{
-          color: gray;
-        }
+/* section hubspot */
+article section.hubspot{
+  background-color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  height: 50px;
+}
+article section.hubspot img{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+article section.hubspot .floatright ul li {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+article section.hubspot .floatright ul li a{
+  color: gray;
+}
 
-  /* /section hubspot */
+/* /section hubspot */
 
-  /* section bigbluebg */
-  article section.bigbluebg{
-    height: 60vh;
-    background-image: url("../img/header-bg.jpg");
-    background-repeat: repeat-x;
-    background-size: 90%;
-    background-position: -50%, 0%;
-    padding: 50px 150px 50px 150px;
-  }
+/* section bigbluebg */
+article section.bigbluebg{
+  height: 60vh;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: repeat-x;
+  background-size: 90%;
+  background-position: -50%, 0%;
+  padding: 50px 150px 50px 150px;
+}
 
-    article section.bigbluebg .textsection{
-      width: 300px;
-    }
-      article section.bigbluebg .textsection *{
-        padding-top: 12px;
-        padding-bottom: 12px;
-      }
-        article section.bigbluebg .textsection a{
-          background-color: gray;
-          padding: 10px 20px 10px 20px;
-          border-radius: 5px;
-        }
-  /* /section bigbluebg */
-  /* section rubic */
-  .imglogo{
-    width: 200px;
-  }
-  article section.rubic{
-    background-color: #F4F8FA;
-    padding: 50px 200px 50px 200px;
-  }
-    article section.rubic *{
-      margin:10px 20px 10px 20px;
-    }
+article section.bigbluebg .textsection{
+  width: 300px;
+}
+article section.bigbluebg .textsection *{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+article section.bigbluebg .textsection a{
+  background-color: gray;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+/* /section bigbluebg */
+/* section rubic */
+.imglogo{
+  width: 200px;
+}
+article section.rubic{
+  background-color: #F4F8FA;
+  padding: 50px 200px 50px 200px;
+}
+article section.rubic *{
+  margin:10px 20px 10px 20px;
+}
 
-    article section.rubic .rubicA{
-      padding-top: 20px;
-      padding-bottom: 20px;
-      position: relative;
-      text-align: center;
-    }
+article section.rubic .rubic-a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
 
-      article section.rubic .rubicA .rubicAcontainer .imgrubicA img{
-        width: 250px
-      }
+article section.rubic .rubic-a .rubic-acontainer .imgrubic-a img{
+  width: 250px
+}
 
-    article section.rubic .rubicB{
-      position: relative;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      margin-left: 10%;
-    }
-    article section.rubic .rubicB:after{
-      content: "";
-      display: table;
-      clear: both;
-    }
-      article section.rubic .rubicB .floatleft .imglogo a{
-        background-color: orange;
-        padding: 10px 20px 10px 20px;
-        margin-left: 20%;
-        border-radius: 5px;
-      }
-      article section.rubic .rubicB .floatleft .rubicbtxt{
-        width: 600px;
-      }
-      article section.rubic .rubicB .floatleft .rubicbtxt #insieme{
-        display: inline;
-      }
+article section.rubic .rubic-b{
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+}
+article section.rubic .rubic-b:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+article section.rubic .rubic-b .floatleft .imglogo a{
+  background-color: orange;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+article section.rubic .rubic-b .floatleft .rubic-btxt{
+  width: 600px;
+}
+article section.rubic .rubic-b .floatleft .rubic-btxt #insieme{
+  display: inline;
+}
 
-    article section.rubic .rubicC{
-      position: relative;
-      background-color: gray;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    article section.rubic .rubicC:after{
-      clear: both;
-      display: table;
-      content: "";
-    }
-    article section.rubic .rubicC .rubicCfloat{
-      float: left;
-      display: inblock;
-      background-color: lightgreen;
-      width: 200px;
-      height: 400px;
-      margin: 10px 20px 10px 20px;
-    }
-
-
-  /* /section rubic */
+article section.rubic .rubic-c{
+  position: relative;
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+article section.rubic .rubic-c:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+article section.rubic .rubic-c .rubic-cfloat{
+  float: left;
+  display: inblock;
+  background-color: lightgreen;
+  width: 200px;
+  height: 400px;
+  margin: 10px 20px 10px 20px;
+}
 
 
-  article section.biglightblue{
-    height: 50vh;
-    background-color: lightblue;
-  }
-  article section.shopify{
-    height: 70vh;
-    background-color: white;
-  }
+/* /section rubic */
+
+
+article section.biglightblue{
+  height: 50vh;
+  background-color: lightblue;
+}
+article section.shopify{
+  height: 70vh;
+  background-color: white;
+}
 
 /* /article rules*/
 
