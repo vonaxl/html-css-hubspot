@@ -158,6 +158,9 @@ article.container{
         }
   /* /section bigbluebg */
   /* section rubic */
+  .imglogo{
+    width: 200px;
+  }
   article section.rubic{
     background-color: #F4F8FA;
     padding: 50px 200px 50px 200px;
@@ -172,19 +175,35 @@ article.container{
       position: relative;
       text-align: center;
     }
-    
-    article section.rubic .rubicA .rubicAcontainer .imgrubicA img{
-      width: 250px
-    }
+
+      article section.rubic .rubicA .rubicAcontainer .imgrubicA img{
+        width: 250px
+      }
 
     article section.rubic .rubicB{
       position: relative;
-      background-color: gray;
-      height: 300px;
       padding-top: 20px;
       padding-bottom: 20px;
-
+      margin-left: 10%;
     }
+    article section.rubic .rubicB:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+      article section.rubic .rubicB .floatleft .imglogo a{
+        background-color: orange;
+        padding: 10px 20px 10px 20px;
+        margin-left: 20%;
+        border-radius: 5px;
+      }
+      article section.rubic .rubicB .floatleft .rubicbtxt{
+        width: 600px;
+      }
+      article section.rubic .rubicB .floatleft .rubicbtxt #insieme{
+        display: inline;
+      }
+
     article section.rubic .rubicC{
       position: relative;
       background-color: gray;
@@ -198,7 +217,7 @@ article.container{
     }
     article section.rubic .rubicC .rubicCfloat{
       float: left;
-      display: block;
+      display: inblock;
       background-color: lightgreen;
       width: 200px;
       height: 400px;
