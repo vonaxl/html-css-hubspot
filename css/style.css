@@ -356,7 +356,7 @@ article section.shopify .shopifyrow .logocontainer .floatleft img{
 article section.shopify .shopifyrow.b {
   padding-left: 5%;
   position: relative;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 article section.shopify .shopifyrow.b .txtcontainer {
@@ -391,6 +391,24 @@ article section.shopify .shopifyrow.b .txtcontainer p:nth-of-type(2){
 /* /article rules*/
 
 footer{
-  height: 50vh;
+  padding: 100px 200px 100px 200px;
   background-color: #33475B;
+}
+
+footer .firstrow::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .firstrow .floatleft{
+  padding-left: 10px 10px 10px 10px;
+  background-color: green;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+footer .firstrow .floatleft li{
+  float: none;
+  text-align: left;
 }
