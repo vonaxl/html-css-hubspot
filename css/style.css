@@ -394,7 +394,7 @@ footer{
   padding: 100px 200px 100px 200px;
   background-color: #33475B;
 }
-
+/* footer firstrow */
 footer .firstrow::after{
   content: "";
   display: table;
@@ -402,13 +402,54 @@ footer .firstrow::after{
 }
 
 footer .firstrow .floatleft{
-  padding-left: 10px 10px 10px 10px;
-  background-color: green;
+  padding-left: 12px 12px 12px 12px;
   margin-left: 2%;
   margin-right: 2%;
 }
 
+footer .firstrow .floatleft h3{
+  color: white;
+}
 footer .firstrow .floatleft li{
   float: none;
   text-align: left;
+  padding-left: 0;
+  padding-right: 0;
 }
+footer .firstrow .floatleft li:nth-child(6){
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer .firstrow .floatleft li:nth-child(6) a{
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+footer .firstrow .floatleft li:nth-child(7) i{
+  padding: 10px 5px 10px 5px;
+  color: lightgray;
+  font-size: 15px;
+}
+footer .firstrow .floatleft li a{
+  float: none;
+  text-align: left;
+  color: lightgray;
+}
+
+/* /footer firstrow */
+/* footer secondrow */
+footer .secondrow{
+  padding: 20px 30% 20px 30%;
+}
+/* /footer secondrow */
+/* footer thirddrow */
+footer .thirdrow::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+footer .thirdrow .floatleft p{
+  color: lightgray;
+}
+/* /footer thirddrow */
