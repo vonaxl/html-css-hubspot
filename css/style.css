@@ -6,7 +6,12 @@
 }
 
 @font-face{
+  font-family: AvenirNextLTPro;
   src: url("../Avenir-Next-Font/AvenirNextLTPro-Regular.otf");
+}
+
+body{
+  font-family: AvenirNextLTPro;
 }
 
 /*/General rules*/
@@ -290,7 +295,7 @@ article section.biglightblue .bluerowcontainer .bluerow .floatcontainer{
   float: left;
   display: block;
   text-align: center;
-  padding: 30px 5% 30px 5%;
+  padding: 30px 4% 30px 4%;
   border: 1px solid white;
 }
 article section.biglightblue .bluerowcontainer .bluerow .floatcontainer img{
