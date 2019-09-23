@@ -5,13 +5,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  src: url(../Avenir-Next-Font/Avenir-Next-Font/AvenirNextLTPro-Regular.otf);
+@font-face{
+  src: url("../Avenir-Next-Font/AvenirNextLTPro-Regular.otf");
 }
 
-body{
-  font-family: "Avenir-Next-Font";
-}
 /*/General rules*/
 
 /* selector to be used to not repeat the same steps*/
@@ -456,6 +453,9 @@ footer .secondrow{
 }
 /* /footer secondrow */
 /* footer thirddrow */
+footer .thirdrow{
+  margin-top: 20px;
+}
 footer .thirdrow::after{
   clear: both;
   display: table;
