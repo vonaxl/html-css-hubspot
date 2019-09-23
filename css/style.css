@@ -42,7 +42,9 @@ h1{
 
 /* header rules */
 header{
-
+  position: fixed;
+  width: 100%;
+  top:0;
 }
 header nav{
   background-color: #33475B;
@@ -112,6 +114,7 @@ header section.navgray::after{
 
 /* article rules*/
 article.container{
+  margin-top:100px;
 
 }
 /* section hubspot */
