@@ -12,6 +12,7 @@
 
 body{
   font-family: AvenirNextLTPro;
+  margin: auto;
 }
 
 /*/General rules*/
@@ -55,11 +56,11 @@ header{
   position: fixed;
   width: 100%;
   top:0;
+  left: 0;
   z-index: 1000;
 }
 header nav{
   background-color: #33475B;
-  height: 50px;
   border-top: 2px solid orange;
   text-align: center;
 }
@@ -71,8 +72,9 @@ header nav .navcontainer:after{
 
 nav .navcontainer .imglogo{
   float: left;
-  width: 100px;
-  padding: 10px;
+  display: block;
+  padding-top: 10px;
+
 }
 
 nav .navcontainer .navlinks{
@@ -110,9 +112,9 @@ nav .navrightfloat{
 }
 
 header section.navgray{
+  line-height: 30px;
   background-color: gray;
-  height: 50px;
-  padding-left: 50px;
+  padding-left: 150px;
   padding-right: 50px;
   position: relative;
 }
@@ -120,6 +122,14 @@ header section.navgray::after{
   content: "";
   clear: both;
   display: table;
+}
+header section.navgray .floatright .searchbar input[type=text]{
+  border: 1px solid black;
+  background-color: orange;
+  color: white;
+}
+header section.navgray .floatright .searchbar input[type=text]::placeholder{
+  color: white;
 }
 /* /header rules */
 
@@ -190,6 +200,10 @@ article section.rubic .rubic-a{
   position: relative;
   text-align: center;
 }
+article section.rubic .rubic-a:hover{
+  border: 5px #e49942;
+  border-style: groove;
+}
 
 article section.rubic .rubic-a .rubic-acontainer .imgrubic-a img{
   width: 250px
@@ -200,6 +214,10 @@ article section.rubic .rubic-b{
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 10%;
+}
+article section.rubic .rubic-b:hover{
+  border: 5px #e49942;
+  border-style: groove;
 }
 article section.rubic .rubic-b:after{
   content: "";
@@ -237,6 +255,10 @@ article section.rubic .rubic-c .rubic-cfloat{
   width: 250px;
   margin: 10px 20px 10px 20px;
   text-align: center;
+}
+article section.rubic .rubic-c .rubic-cfloat:hover{
+  border: 5px #e49942;
+  border-style: inset;
 }
 article section.rubic .rubic-c .rubic-cfloat p{
   text-align: left;
