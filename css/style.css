@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "Avenir-Next-Font";
+  src: url(../Avenir-Next-Font/Avenir-Next-Font/AvenirNextLTPro-Regular.otf);
 }
 
 body{
@@ -53,6 +53,7 @@ header{
   position: fixed;
   width: 100%;
   top:0;
+  z-index: 1000;
 }
 header nav{
   background-color: #33475B;
