@@ -135,7 +135,7 @@ header section.navgray .floatright .searchbar input[type=text]::placeholder{
 
 /* article rules*/
 article.container{
-  margin-top:100px;
+  margin-top:75px;
 
 }
 /* section hubspot */
@@ -149,6 +149,24 @@ article section.hubspot img{
   padding-top: 10%;
   padding-bottom: 10%;
 }
+/* article section.hubspot .dropcontent{
+  text-align: center;
+  display: none;
+  position: absolute;
+  z-index: 4;
+  padding: 13px;
+  min-width: 300px;
+}
+article section.hubspot .floatright ul li a:hover .dropcontent{
+  display: block
+}
+
+
+article section.hubspot .clearfix{
+  content: "";
+  display: table;
+  clear: both;
+} */
 article section.hubspot .floatright ul li {
   padding-top: 5%;
   padding-bottom: 5%;
