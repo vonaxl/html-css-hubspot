@@ -4,6 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Avenir-Next-Font";
+}
+
+body{
+  font-family: "Avenir-Next-Font";
+}
 /*/General rules*/
 
 /* selector to be used to not repeat the same steps*/
