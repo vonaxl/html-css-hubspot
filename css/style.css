@@ -153,23 +153,28 @@ article section.hubspot img{
   text-align: center;
   display: none;
   position: absolute;
-  z-index: 4;
+  top: 10px;
+  left:50;
+  z-index: 666;
   padding: 13px;
-  min-width: 300px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
 }
-article section.hubspot .floatright ul li a:hover .dropcontent{
-  display: block
-}
-
+.dropdown:hover .dropcontent{
+  display: block;
+} */
 
 article section.hubspot .clearfix{
   content: "";
   display: table;
   clear: both;
-} */
+}
+
 article section.hubspot .floatright ul li {
   padding-top: 5%;
   padding-bottom: 5%;
+  position: relative;
 }
 article section.hubspot .floatright ul li a{
   color: gray;
